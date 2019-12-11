@@ -1,0 +1,4 @@
+TRUNCATE
+  booklist
+ 
+  RESTART IDENTITY CASCADE;

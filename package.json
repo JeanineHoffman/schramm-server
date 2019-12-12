@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "morgan": "^1.9.1",
@@ -35,5 +35,16 @@
     "nodemon": "^1.19.1",
     "supertest": "^4.0.2"
   },
-  "heroku-run-build-script": true
+  "heroku-run-build-script": true,
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanineHoffman/schramm-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeanineHoffman/schramm-server/issues"
+  },
+  "homepage": "https://github.com/JeanineHoffman/schramm-server#readme"
 }
